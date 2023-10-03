@@ -5,7 +5,7 @@
       class="now-playing"
       :class="getNowPlayingClass()"
     >
-      <div class="now-playing__cover">
+      <div class="">
         <img
           :src="player.trackAlbum.image"
           :alt="player.trackTitle"
